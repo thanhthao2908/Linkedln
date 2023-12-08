@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1701940457 source:d:\tttth\documents\linkedin\c++\challenge_von_juliaimlauer\schere_stein_papier\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<array>
+
