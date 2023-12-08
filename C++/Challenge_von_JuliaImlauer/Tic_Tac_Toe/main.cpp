@@ -71,7 +71,7 @@ int main()
         int wahl_1;
         std::cin >> wahl_1;
 
-        // Überprüfen ob das Feld besetzt ist
+        // ÃœberprÃ¼fen ob das Feld besetzt ist
         if (zeichenWandler(array[wahl_1]) != ' '){
             std::cout << "Diese Feld ist besetzt! andere Feld? ";
             std::cin >> wahl_1;
@@ -80,7 +80,7 @@ int main()
         // Spieler 1 = Kreuz = Wert 1
         array[wahl_1] = 1;
 
-        // Überprüfen ob Spieler 1 gewonnwn ist
+        // ÃœberprÃ¼fen ob Spieler 1 gewonnwn ist
         bool sieger_1 = gewinnabfrage(array);
         if (sieger_1){
             std::cout << "Gewinner 1" << std::endl;
@@ -97,7 +97,7 @@ int main()
             int wahl_2;
             std::cin >> wahl_2;
 
-            // Überprüfen ob das Feld besetzt ist
+            // ÃœberprÃ¼fen ob das Feld besetzt ist
             if (zeichenWandler(array[wahl_2]) != ' '){
                 std::cout << "Diese Feld ist besetzt! andere Feld? ";
                 std::cin >> wahl_2;
